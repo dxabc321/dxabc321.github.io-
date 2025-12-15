@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李明 - 个人博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">李明<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">首页</a></li>
+                <li><a href="about.html">关于我</a></li>
+                <li><a href="blog.html">博客</a></li>
+                <li><a href="projects.html">项目</a></li>
+                <li><a href="contact.html">联系</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3 class="greeting">你好，我是</h3>
+                    <h1 class="name">李明</h1>
+                    <h2 class="title">全栈开发工程师 & 技术博主</h2>
+                    <p class="description">我热爱构建优雅的解决方案，分享技术见解，并探索人工智能与Web技术的交叉领域。在这里，我会分享我的学习笔记、项目经验和行业观察。</p>
+                    <div class="hero-buttons">
+                        <a href="contact.html" class="btn btn-primary">联系我</a>
+                        <a href="projects.html" class="btn btn-secondary">查看项目</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="李明">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 精选博客 -->
+    <section class="featured-posts">
+        <div class="container">
+            <h2 class="section-title">最新博客文章</h2>
+            <div class="posts-grid">
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="AI与前端开发">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">前端开发</span>
+                        <h3 class="post-title"><a href="posts/ai-frontend.html">AI如何改变前端开发工作流</a></h3>
+                        <p class="post-excerpt">探讨人工智能工具如Copilot、ChatGPT等如何提高前端开发效率，并分析未来发展趋势。</p>
+                        <div class="post-meta">
+                            <span class="post-date">2023年10月15日</span>
+                            <span class="post-read-time">8分钟阅读</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="React性能优化">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">React</span>
+                        <h3 class="post-title"><a href="posts/react-performance.html">React 18性能优化实战指南</a></h3>
+                        <p class="post-excerpt">深入探讨React 18的新特性，并分享我在实际项目中应用的性能优化技巧。</p>
+                        <div class="post-meta">
+                            <span class="post-date">2023年10月10日</span>
+                            <span class="post-read-time">12分钟阅读</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="post-card">
+                    <div class="post-image">
+                        <img src="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80" alt="Web3技术">
+                    </div>
+                    <div class="post-content">
+                        <span class="post-category">Web3</span>
+                        <h3 class="post-title"><a href="posts/web3-basics.html">Web3入门：从零开始理解区块链与去中心化应用</a></h3>
+                        <p class="post-excerpt">为前端开发者准备的Web3入门指南，涵盖以太坊、智能合约和DApp开发基础。</p>
+                        <div class="post-meta">
+                            <span class="post-date">2023年10月5日</span>
+                            <span class="post-read-time">15分钟阅读</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="view-all">
+                <a href="blog.html" class="btn btn-outline">查看所有文章</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 个人技能 -->
+    <section class="skills-section">
+        <div class="container">
+            <h2 class="section-title">技术栈与技能</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>前端开发</h3>
+                    <ul class="skill-list">
+                        <li>HTML5 / CSS3 / JavaScript (ES6+)</li>
+                        <li>React.js / Vue.js</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS / Sass</li>
+                        <li>Next.js / Nuxt.js</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>后端开发</h3>
+                    <ul class="skill-list">
+                        <li>Node.js / Express</li>
+                        <li>Python / Django</li>
+                        <li>PostgreSQL / MongoDB</li>
+                        <li>RESTful APIs / GraphQL</li>
+                        <li>Docker / Kubernetes</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>其他技能</h3>
+                    <ul class="skill-list">
+                        <li>Git / GitHub Actions</li>
+                        <li>AWS / 阿里云</li>
+                        <li>CI/CD 流水线</li>
+                        <li>UI/UX 设计原则</li>
+                        <li>敏捷开发 / Scrum</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">李明<span>.</span></a>
+                    <p>全栈开发工程师，技术博主，热衷于分享知识与构建有影响力的产品。</p>
+                </div>
+                <div class="footer-links">
+                    <h3>快速链接</h3>
+                    <ul>
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="about.html">关于我</a></li>
+                        <li><a href="blog.html">博客</a></li>
+                        <li><a href="projects.html">项目</a></li>
+                        <li><a href="contact.html">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>关注我</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-weixin"></i></a>
+                        <a href="#"><i class="fab fa-zhihu"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 李明. 保留所有权利.</p>
+                <p>本博客由HTML、CSS和JavaScript构建，部署于GitHub Pages。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
